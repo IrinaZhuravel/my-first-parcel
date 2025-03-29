@@ -24,7 +24,7 @@ jobs:
           git config --global user.email "irenasuarchive@gmail.com"
 
       - name: Set up GitHub token
-        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/IrinaZhuravel/js-hw8.git
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/IrinaZhuravel/my-first-parcel.git
 
       - name: Install dependencies
         run: npm install
